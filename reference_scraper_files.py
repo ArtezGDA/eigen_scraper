@@ -1,5 +1,10 @@
-# Importing the necessary modules
-cd Documents/1.\ ArtEZ/Media\ Design/3.\ Dataposter/3.\ Python/
+
+""" 
+	specifically for Kaulane's macbook, in terminal:
+	ipython
+	cd ~/Documents/1_artez/media_design/eigen_scraper/
+	%run reference_scraper_files.py
+"""
 
 from xml.etree import ElementTree
 import json
@@ -15,13 +20,13 @@ def get_all_references():
 	# Scraping Settings
 	#
 	# Set the url of all the movies
-	all_references_file = open('kill_bill_1.html', 'r')
+	all_references_file = open('kill_bill_2.html', 'r')
 	# Set the xpath for all titles
 	titles_xpath = './/span[@class="mw-headline"]'
 
 
 	# open (and load) the site, then read the html
-	site = open('kill_bill_1.html', 'r')
+	site = open('kill_bill_2.html', 'r')
 	html = all_references_file.read()
 	
 	# parse the html as an XML-tree
