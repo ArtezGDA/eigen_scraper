@@ -13,6 +13,8 @@ No more errors in terminal!
 
 --reference_scraper_files.py
 Features my adjusted/homebuild python script to scrape html-files saved on my computer.
+    one problem: it returns a blank json file...
+
 
 --reference_scraper_web.py
 Features my adjusted python script to scrape the website I wanted to use for my data.
