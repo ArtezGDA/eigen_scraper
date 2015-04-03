@@ -13,3 +13,6 @@ No more errors in terminal!
 
 --reference_scraper_files.py
 Features my adjusted/homebuild python script to scrape html-files saved on my computer.
+
+--reference_scraper_web.py
+Features my adjusted python script to scrape the website I wanted to use for my data.
