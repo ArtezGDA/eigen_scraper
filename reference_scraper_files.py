@@ -20,13 +20,13 @@ def get_all_references():
 	# Scraping Settings
 	#
 	# Set the url of all the movies
-	all_references_file = open('kill_bill_2.html', 'r')
+	all_references_file = open('kill_bill_2.html', 'r+')
 	# Set the xpath for all titles
 	titles_xpath = './/span[@class="mw-headline"]'
 
 
 	# open (and load) the site, then read the html
-	site = open('kill_bill_2.html', 'r')
+	site = open('kill_bill_2.html', 'r+')
 	html = all_references_file.read()
 	
 	# parse the html as an XML-tree
